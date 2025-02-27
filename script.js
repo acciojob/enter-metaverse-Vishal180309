@@ -1,5 +1,3 @@
-//your JS code here. If required.
-document.getElementById("enterBtn").addEventListener("click", () => {
-    const statusPara = document.getElementById("status");
-    statusPara.innerText = "Entered Metaverse";
+document.getElementById("enterBtn").addEventListener("click", function() {
+    document.getElementById("status").outerHTML = "<h1 id='status'>Entered Metaverse</h1>";
 });
