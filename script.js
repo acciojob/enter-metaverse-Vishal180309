@@ -1,9 +1,9 @@
-const statusParagraph = document.getElementById("status");
-const enterButton = document.getElementById("enterBtn");
-const heading = document.getElementById("heading");
+//your JS code here. If required.
+document.getElementById('enterBtn').addEventListener('click',()=>{
+    const status=document.getElementById('status');
+    if(status.textContent==='Enter the Metaverse'){
+     status.innerHTML=<h1>Entered Metaverse</h1>   
+    }
+    
 
-enterButton.addEventListener("click", () => {
-    statusParagraph.style.display = "none";
-    heading.innerText = "Entered Metaverse";
-    heading.style.display = "block";
-});
+})
